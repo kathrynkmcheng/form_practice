@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Application Form</title>
+
+  <!-- Fonts have already been added here! -->
+  <link href="https://fonts.googleapis.com/css?family=Oswald:400,700" rel="stylesheet" type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <div class="container">
+
+    <form>
+      <h1>YOUR CONTACT INFO</h1>
+      <label for="full-name">Full Name</label>
+      <input type="text" name="full-name" id="full-name" placeholder="Enter your Name">
+
+      <br>
+
+      <label for="email-address">Email</label>
+      <input type="email" name="email-address" id="email" placeholder="Enter your email">
+
+      <br>
+
+      <label for="phonenumber">Phone Number</label>
+      <input type="text" name="Phonenumber" id="phone" placeholder="Enter your phone number">
+
+      <br>
+      <hr>
+
+      <h1>SKILLS AND INTERESTS</h1>
+
+      <label for="course">What course are you interested in?</label>
+      <select name=course id="course">
+        <option>Select</option>
+        <option>Front End Web Development</option>
+        <option>Back End Web Development</option>
+        <option>User Experience</option>
+        <option>JavaScript Development</option>
+        <option>Data Science</option>
+      </select>
+
+      <br>
+
+      <label for="city">Where do you want to take this course?</label>
+      <br>
+      <label for="small">San Francisco</label>
+      <input type="radio" id="sanfrancisco" name="city" value="sanfrancisco">
+      <label for="medium">Chicago</label>
+      <input type="radio" id="chicago" name="city" value="chicago">
+
+      <br>
+
+      <label for="experience">Past Experience</label>
+      <textarea placeholder="What is your past experience?"></textarea>
+
+      <hr>
+
+      <label for="email-updates">I want to receive email updates.</label>
+      <input type="checkbox" id="email-updates" name="email-updates">
+
+      <br>
+
+      <button type="submit">Submit Application</button>
+    </form>
+  </div>
+</html>
